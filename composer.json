@@ -1,0 +1,21 @@
+{
+    "name": "api/fabao404_beta",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fábio Gabriel Bernardo de Almeida",
+            "email": "fabiogabri324@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "Controllers/",
+            "Models\\": "Models/",
+            "Core\\": "Core/",
+            "Services\\": "Services/",
+            "Server\\": "Server/",
+            "Configs\\": "Configs/"
+        }
+    }
+}
